@@ -1,0 +1,26 @@
+{
+  "name": "approval-workflow",
+  "version": "1.0.0",
+  "description": "Procure-to-pay workflow where approval authority belongs to the role, not the person. Zero runtime dependencies.",
+  "main": "dist/src/index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "demo": "tsx examples/demo.ts"
+  },
+  "author": "Aldemar Luz",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "vitest": "^2.1.9"
+  },
+  "type": "module",
+  "types": "dist/src/index.d.ts"
+}
